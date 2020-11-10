@@ -25,9 +25,15 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
+# Simple Form provide a new helper that will generate form with Bootstrap classes
+gem 'simple_form'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+
+  # Simple Form provide a new helper that will generate form with Bootstrap classes
+  gem 'simple_form'
 end
 
 group :development do
